@@ -6,7 +6,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps: 
-      - name: Print greeting
+      - name: Multi-line print
         run: | 
           echo "First line!"
           echo "Second line!"
